@@ -36,7 +36,7 @@ class Evaluator(object):
                 break
 
         if pose is None:
-            # print("Collision!")
+            print("Collision!")
             return -1
         elif rd(pose[0]) == self.goal[0] and rd(pose[1]) == self.goal[1]:
             # print('Reach the goal, distance traveled: {}'.format(distance))
@@ -174,7 +174,7 @@ if __name__ == "__main__":
         "-g",
         "--goal-file",
         type=str,
-        default="../files/goals.json",
+        default="../../../files/goals.json",
         help="JSON file of goals.",
     )
     parser.add_argument(
