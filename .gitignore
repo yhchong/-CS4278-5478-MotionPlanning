@@ -1,0 +1,7 @@
+*.pyc
+build/
+devel/
+*.npy
+.pkl
+CMakeList.txt
+.idea/
