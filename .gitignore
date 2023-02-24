@@ -2,6 +2,6 @@
 build/
 devel/
 *.npy
-*.pkl
+# *.pkl
 CMakeLists.txt
 .idea/
